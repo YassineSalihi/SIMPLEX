@@ -15,12 +15,12 @@ To optimize :
 \$(c_1x_1 + c_2x_2 + c_3x_3 + ... + c_nx_n)\$
 
 Subjects to constraints : 
-\$a_{11}x_1 + a_{12}x_2 + a_{13}x_3 + ... + a_{1n}x_n <= b_1\$
-\$a_{21}x_1 + a_{22}x_2 + a_{23}x_3 + ... + a_{2n}x_n <= b_1\$
-                      .
-					  .
-					  .
-\$a_(m1)x_1 + a_(m2)x_2 + a_(m3)x_3 + ... + a_(mn)x_n <= b_1\$
+\$a_{11}x_1 + a_{12}x_2 + a_{13}x_3 + ... + a_{1n}x_n <= b_1\$  \
+\$a_{21}x_1 + a_{22}x_2 + a_{23}x_3 + ... + a_{2n}x_n <= b_1\$  \
+                      .											\
+					  .											\
+					  .											\
+\$a_{m1}x_1 + a_{m2}x_2 + a_{m3}x_3 + ... + a_{mn}x_n <= b_1\$  \
 
 # STEPS FOR SIMPLEX ALGORITHM :
 	- Set the problem in Standard (correct) form.
