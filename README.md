@@ -1,7 +1,10 @@
 # SIMPLEX
 very simple starting point.
 
-I am checking https://medium.com/@muditbits/simplex-method-for-linear-programming-1f88fc981f50  
+I am using the image below from my teacher course :
+![image](https://github.com/user-attachments/assets/09e0578d-8614-43fe-8660-872b46c2c238)
+
+Also I am checking https://medium.com/@muditbits/simplex-method-for-linear-programming-1f88fc981f50  
 the "Simplex Algorithm"
 
 
