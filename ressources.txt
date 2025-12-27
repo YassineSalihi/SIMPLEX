@@ -1,0 +1,5 @@
+I started by watching : 
+https://youtu.be/uccbVoamiUM?si=O6eA52M7rn82TbFh
+
+OK, now I am reading https://www.chkwon.net/julia/juliabook/juliabook2.html#chap-simplex 
+OK, I will follow th book steps
