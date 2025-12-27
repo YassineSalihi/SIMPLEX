@@ -25,13 +25,12 @@ Subjects to constraints : \
 					  .											\
 \$a_{m1}x_1 + a_{m2}x_2 + a_{m3}x_3 + ... + a_{mn}x_n <= b_1\$  \
 
-# STEPS FOR SIMPLEX ALGORITHM :
-	- Set the problem in Standard (correct) form.
-	- Set the objective function as maximum problem (if you have minimum problem multiply the objective function by -1
-	- Set all the constraints as ≤ format (if there is a ≥ constraint multiply constraint by -1
-	- All the variables should be positive
-	- Add requisite slack variables (these variables are added to make ≥ constraint into = type
-	- Create the initial simplex tableau
-	- Identify the Original Basis Solution corresponding to the basis variables
-	- 
+# A Brief Description of the Simplex Method
+We will use the notation of Bazaraa et al. (2011)1 with slight changes, of which this section provides a summary. We consider an LP problem of the following form:
+
+min    \$cx\$ \
+s.t.   \$Ax = b\$
+       \$x>=\$
+
+where \$A\$ is an \$m * n\$ matrix with rank and all other vectors have appropriate dimensions.
 
