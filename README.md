@@ -23,14 +23,14 @@ Subjects to constraints : \
                       .											\
 					  .											\
 					  .											\
-\$a_{m1}x_1 + a_{m2}x_2 + a_{m3}x_3 + ... + a_{mn}x_n <= b_1\$  \
+\$a_{m1}x_1 + a_{m2}x_2 + a_{m3}x_3 + ... + a_{mn}x_n <= b_1\$  
 
 # A Brief Description of the Simplex Method
 We will use the notation of Bazaraa et al. (2011)1 with slight changes, of which this section provides a summary. We consider an LP problem of the following form:
 
-min    \$cx\$ \
-s.t.   \$Ax = b\$
-       \$x>=\$
+min        \$cx\$ \
+s.t.       \$Ax = b\$
+           \$x >= 0\$
 
 where \$A\$ is an \$m * n\$ matrix with rank and all other vectors have appropriate dimensions.
 
