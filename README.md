@@ -11,7 +11,7 @@ the "Simplex Algorithm"
    - Go
    - ... 
 
-To optimize : 
+To optimize : \
 \$(c_1x_1 + c_2x_2 + c_3x_3 + ... + c_nx_n)\$
 
 Subjects to constraints : \
