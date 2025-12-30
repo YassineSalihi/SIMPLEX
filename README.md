@@ -33,5 +33,12 @@ s.t.       \$Ax = b\$
 
 where \$A\$ is an \$m * n\$ matrix with rank and all other vectors have appropriate dimensions.
 
+# To Run : 
+```console
+$ julia run_simlex.jl 
+```
+
+---
+
 ## Note : result of the graphical method
 ![image](https://github.com/user-attachments/assets/fb576031-6733-470e-8f4d-8855ac28a2c9)
