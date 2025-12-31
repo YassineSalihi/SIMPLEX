@@ -38,6 +38,8 @@ where \$A\$ is an \$m * n\$ matrix with rank and all other vectors have appropri
 $ julia run_simlex.jl 
 ```
 
+> :memo: **Note:** To change value, check the run_simlex.jl file.
+
 ---
 
 ## Note : result of the graphical method
