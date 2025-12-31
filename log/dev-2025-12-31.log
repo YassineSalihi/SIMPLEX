@@ -1,0 +1,140 @@
+┌ Info: 2025-12-31 21:25:13 Watching ["/home/salihi/code/active_projects/GUI_SIMPLEXE"]
+└ @ GenieAutoReload /home/salihi/.julia/packages/GenieAutoReload/qpImd/src/GenieAutoReload.jl:19
+┌ Info: 2025-12-31 21:25:16 Autoreloading
+└ @ GenieAutoReload /home/salihi/.julia/packages/GenieAutoReload/qpImd/src/GenieAutoReload.jl:22
+┌ Info: 2025-12-31 21:25:36 Autoreloading
+└ @ GenieAutoReload /home/salihi/.julia/packages/GenieAutoReload/qpImd/src/GenieAutoReload.jl:22
+┌ Info: 2025-12-31 21:26:05 Watching ["/home/salihi/code/active_projects/GUI_SIMPLEXE"]
+└ @ GenieAutoReload /home/salihi/.julia/packages/GenieAutoReload/qpImd/src/GenieAutoReload.jl:19
+┌ Info: 2025-12-31 21:26:08 Autoreloading
+└ @ GenieAutoReload /home/salihi/.julia/packages/GenieAutoReload/qpImd/src/GenieAutoReload.jl:22
+┌ Info: 2025-12-31 21:26:41 Autoreloading
+└ @ GenieAutoReload /home/salihi/.julia/packages/GenieAutoReload/qpImd/src/GenieAutoReload.jl:22
+┌ Info: 2025-12-31 21:27:17 Watching ["/home/salihi/code/active_projects/GUI_SIMPLEXE"]
+└ @ GenieAutoReload /home/salihi/.julia/packages/GenieAutoReload/qpImd/src/GenieAutoReload.jl:19
+┌ Info: 2025-12-31 21:27:19 Web Server starting at http://127.0.0.1:8000 - press Ctrl/Cmd+C to stop the server. 
+└ @ Genie.Server /home/salihi/.julia/packages/Genie/G0LAe/src/Server.jl:194
+┌ Info: 2025-12-31 21:27:19 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers /home/salihi/.julia/packages/HTTP/ShTJs/src/Servers.jl:382
+┌ Info: 2025-12-31 21:27:20 Autoreloading
+└ @ GenieAutoReload /home/salihi/.julia/packages/GenieAutoReload/qpImd/src/GenieAutoReload.jl:22
+┌ Error: 2025-12-31 21:27:42 UndefVarError: `textarea` not defined in `Main.App`
+│ Suggestion: check for spelling errors or missing imports.
+│ Hint: a global variable of this name also exists in StippleUI.FormInputs.
+│     - Also exported by StippleUI (loaded but not imported in Main).
+│ Hint: a global variable of this name also exists in Genie.Renderer.Html.
+│     - Also exported by Stipple (loaded but not imported in Main).
+│ Stacktrace:
+│   [1] ui()
+│     @ Main.App ~/code/active_projects/GUI_SIMPLEXE/genie_simplex/app.jl:221
+│   [2] html!(data::typeof(Main.App.ui); context::Module, status::Int64, headers::Dict{String, String}, layout::String, forceparse::Bool, noparse::Bool, vars::@Kwargs{model::Main.App.var"Main.App_ReactiveModel!_1"})
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/G0LAe/src/renderers/Html.jl:598
+│   [3] (::Stipple.Pages.var"#8#9"{typeof(Main.App.ui), String, Module, Int64, Int64, Module, Bool, @Kwargs{}, Stipple.Pages.Page})()
+│     @ Stipple.Pages ~/.julia/packages/Stipple/PPPFX/src/Pages.jl:90
+│   [4] run_route(r::Genie.Router.Route)
+│     @ Genie.Router ~/.julia/packages/Genie/G0LAe/src/Router.jl:547
+│   [5] route_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response; stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Router ~/.julia/packages/Genie/G0LAe/src/Router.jl:172
+│   [6] route_request
+│     @ ~/.julia/packages/Genie/G0LAe/src/Router.jl:147 [inlined]
+│   [7] handle_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response; stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/G0LAe/src/Server.jl:321
+│   [8] handle_request
+│     @ ~/.julia/packages/Genie/G0LAe/src/Server.jl:313 [inlined]
+│   [9] (::Genie.Server.var"#36#37"{HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}}, HTTP.Messages.Request, HTTP.Messages.Response})()
+│     @ Genie.Server ~/.julia/juliaup/julia-1.12.3+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/macros.jl:126
+│  [10] #local_remotecall_thunk##0
+│     @ ~/.julia/juliaup/julia-1.12.3+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/remotecall.jl:425 [inlined]
+│  [11] run_work_thunk(thunk::Distributed.var"#local_remotecall_thunk##0#local_remotecall_thunk##1"{Genie.Server.var"#36#37"{HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}}, HTTP.Messages.Request, HTTP.Messages.Response}, Tuple{}, @Kwargs{}}, print_error::Bool)
+│     @ Distributed ~/.julia/juliaup/julia-1.12.3+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:70
+│  [12] #remotecall_fetch#108
+│     @ ~/.julia/juliaup/julia-1.12.3+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/remotecall.jl:450 [inlined]
+│  [13] remotecall_fetch
+│     @ ~/.julia/juliaup/julia-1.12.3+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/remotecall.jl:449 [inlined]
+│  [14] remotecall_fetch
+│     @ ~/.julia/juliaup/julia-1.12.3+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/remotecall.jl:492 [inlined]
+│  [15] setup_http_listener(req::HTTP.Messages.Request, res::HTTP.Messages.Response; stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/G0LAe/src/Server.jl:365
+│  [16] setup_http_listener (repeats 2 times)
+│     @ ~/.julia/packages/Genie/G0LAe/src/Server.jl:363 [inlined]
+│  [17] (::Genie.Server.var"#streamhandler##0#streamhandler##1"{typeof(Genie.Server.setup_http_listener)})(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/G0LAe/src/Server.jl:334
+│  [18] setup_http_streamer(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/G0LAe/src/Server.jl:354
+│  [19] (::Genie.Server.var"#15#16")(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/G0LAe/src/Server.jl:125
+│  [20] handle_connection(f::Function, c::HTTP.Connections.Connection{Sockets.TCPSocket}, listener::HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, readtimeout::Int64, access_log::Nothing, verbose::Bool)
+│     @ HTTP.Servers ~/.julia/packages/HTTP/ShTJs/src/Servers.jl:469
+│  [21] (::HTTP.Servers.var"#listenloop##0#listenloop##1"{Genie.Server.var"#15#16", HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, Set{HTTP.Connections.Connection}, Int64, Nothing, ReentrantLock, Bool, Base.Semaphore, HTTP.Connections.Connection{Sockets.TCPSocket}})()
+│     @ HTTP.Servers ~/.julia/packages/HTTP/ShTJs/src/Servers.jl:401
+│ 
+└ @ Genie.Server /home/salihi/.julia/packages/Genie/G0LAe/src/Server.jl:377
+┌ Error: 2025-12-31 21:28:06 UndefVarError: `textarea` not defined in `Main.App`
+│ Suggestion: check for spelling errors or missing imports.
+│ Hint: a global variable of this name also exists in StippleUI.FormInputs.
+│     - Also exported by StippleUI (loaded but not imported in Main).
+│ Hint: a global variable of this name also exists in Genie.Renderer.Html.
+│     - Also exported by Stipple (loaded but not imported in Main).
+│ Stacktrace:
+│   [1] ui()
+│     @ Main.App ~/code/active_projects/GUI_SIMPLEXE/genie_simplex/app.jl:221
+│   [2] html!(data::typeof(Main.App.ui); context::Module, status::Int64, headers::Dict{String, String}, layout::String, forceparse::Bool, noparse::Bool, vars::@Kwargs{model::Main.App.var"Main.App_ReactiveModel!_1"})
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/G0LAe/src/renderers/Html.jl:598
+│   [3] (::Stipple.Pages.var"#8#9"{typeof(Main.App.ui), String, Module, Int64, Int64, Module, Bool, @Kwargs{}, Stipple.Pages.Page})()
+│     @ Stipple.Pages ~/.julia/packages/Stipple/PPPFX/src/Pages.jl:90
+│   [4] run_route(r::Genie.Router.Route)
+│     @ Genie.Router ~/.julia/packages/Genie/G0LAe/src/Router.jl:547
+│   [5] route_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response; stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Router ~/.julia/packages/Genie/G0LAe/src/Router.jl:172
+│   [6] route_request
+│     @ ~/.julia/packages/Genie/G0LAe/src/Router.jl:147 [inlined]
+│   [7] handle_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response; stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/G0LAe/src/Server.jl:321
+│   [8] handle_request
+│     @ ~/.julia/packages/Genie/G0LAe/src/Server.jl:313 [inlined]
+│   [9] (::Genie.Server.var"#36#37"{HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}}, HTTP.Messages.Request, HTTP.Messages.Response})()
+│     @ Genie.Server ~/.julia/juliaup/julia-1.12.3+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/macros.jl:126
+│  [10] #local_remotecall_thunk##0
+│     @ ~/.julia/juliaup/julia-1.12.3+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/remotecall.jl:425 [inlined]
+│  [11] run_work_thunk(thunk::Distributed.var"#local_remotecall_thunk##0#local_remotecall_thunk##1"{Genie.Server.var"#36#37"{HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}}, HTTP.Messages.Request, HTTP.Messages.Response}, Tuple{}, @Kwargs{}}, print_error::Bool)
+│     @ Distributed ~/.julia/juliaup/julia-1.12.3+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:70
+│  [12] #remotecall_fetch#108
+│     @ ~/.julia/juliaup/julia-1.12.3+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/remotecall.jl:450 [inlined]
+│  [13] remotecall_fetch
+│     @ ~/.julia/juliaup/julia-1.12.3+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/remotecall.jl:449 [inlined]
+│  [14] remotecall_fetch
+│     @ ~/.julia/juliaup/julia-1.12.3+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/remotecall.jl:492 [inlined]
+│  [15] setup_http_listener(req::HTTP.Messages.Request, res::HTTP.Messages.Response; stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/G0LAe/src/Server.jl:365
+│  [16] setup_http_listener (repeats 2 times)
+│     @ ~/.julia/packages/Genie/G0LAe/src/Server.jl:363 [inlined]
+│  [17] (::Genie.Server.var"#streamhandler##0#streamhandler##1"{typeof(Genie.Server.setup_http_listener)})(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/G0LAe/src/Server.jl:334
+│  [18] setup_http_streamer(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/G0LAe/src/Server.jl:354
+│  [19] (::Genie.Server.var"#15#16")(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/G0LAe/src/Server.jl:125
+│  [20] handle_connection(f::Function, c::HTTP.Connections.Connection{Sockets.TCPSocket}, listener::HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, readtimeout::Int64, access_log::Nothing, verbose::Bool)
+│     @ HTTP.Servers ~/.julia/packages/HTTP/ShTJs/src/Servers.jl:469
+│  [21] (::HTTP.Servers.var"#listenloop##0#listenloop##1"{Genie.Server.var"#15#16", HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, Set{HTTP.Connections.Connection}, Int64, Nothing, ReentrantLock, Bool, Base.Semaphore, HTTP.Connections.Connection{Sockets.TCPSocket}})()
+│     @ HTTP.Servers ~/.julia/packages/HTTP/ShTJs/src/Servers.jl:401
+│ 
+└ @ Genie.Server /home/salihi/.julia/packages/Genie/G0LAe/src/Server.jl:377
+┌ Info: 2025-12-31 21:28:27 Server on 127.0.0.1:8000 closing
+└ @ HTTP.Servers /home/salihi/.julia/packages/HTTP/ShTJs/src/Servers.jl:409
+┌ Info: 2025-12-31 21:29:17 Watching ["/home/salihi/code/active_projects/GUI_SIMPLEXE"]
+└ @ GenieAutoReload /home/salihi/.julia/packages/GenieAutoReload/qpImd/src/GenieAutoReload.jl:19
+┌ Info: 2025-12-31 21:29:19 Web Server starting at http://127.0.0.1:8000 - press Ctrl/Cmd+C to stop the server. 
+└ @ Genie.Server /home/salihi/.julia/packages/Genie/G0LAe/src/Server.jl:194
+┌ Info: 2025-12-31 21:29:19 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers /home/salihi/.julia/packages/HTTP/ShTJs/src/Servers.jl:382
+┌ Info: 2025-12-31 21:29:19 Autoreloading
+└ @ GenieAutoReload /home/salihi/.julia/packages/GenieAutoReload/qpImd/src/GenieAutoReload.jl:22
+┌ Info: 2025-12-31 21:29:41 Autoreloading
+└ @ GenieAutoReload /home/salihi/.julia/packages/GenieAutoReload/qpImd/src/GenieAutoReload.jl:22
+┌ Info: 2025-12-31 21:29:41 Calling finalizers
+└ @ Stipple /home/salihi/.julia/packages/Stipple/PPPFX/src/Stipple.jl:538
+┌ Info: 2025-12-31 21:29:42 Re-attaching handlers to model Main.App.var"Main.App_ReactiveModel" and updating values
+└ @ Stipple /home/salihi/.julia/packages/Stipple/PPPFX/src/Stipple.jl:668
+┌ Info: 2025-12-31 21:30:06 Server on 127.0.0.1:8000 closing
+└ @ HTTP.Servers /home/salihi/.julia/packages/HTTP/ShTJs/src/Servers.jl:409

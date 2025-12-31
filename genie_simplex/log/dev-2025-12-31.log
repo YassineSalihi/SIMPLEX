@@ -1,0 +1,22 @@
+┌ Info: 2025-12-31 21:07:37 Watching ["/home/salihi/code/active_projects/GUI_SIMPLEXE/genie_simplex"]
+└ @ GenieAutoReload /home/salihi/.julia/packages/GenieAutoReload/qpImd/src/GenieAutoReload.jl:19
+┌ Info: 2025-12-31 21:07:39 Autoreloading
+└ @ GenieAutoReload /home/salihi/.julia/packages/GenieAutoReload/qpImd/src/GenieAutoReload.jl:22
+┌ Info: 2025-12-31 21:07:47 Web Server starting at http://127.0.0.1:8000 
+└ @ Genie.Server /home/salihi/.julia/packages/Genie/G0LAe/src/Server.jl:194
+┌ Info: 2025-12-31 21:07:47 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers /home/salihi/.julia/packages/HTTP/ShTJs/src/Servers.jl:382
+┌ Info: 2025-12-31 21:10:14 Autoreloading
+└ @ GenieAutoReload /home/salihi/.julia/packages/GenieAutoReload/qpImd/src/GenieAutoReload.jl:22
+┌ Info: 2025-12-31 21:10:14 Calling finalizers
+└ @ Stipple /home/salihi/.julia/packages/Stipple/PPPFX/src/Stipple.jl:538
+┌ Info: 2025-12-31 21:10:14 Calling finalizers
+└ @ Stipple /home/salihi/.julia/packages/Stipple/PPPFX/src/Stipple.jl:538
+┌ Info: 2025-12-31 21:13:42 Calling finalizers
+└ @ Stipple /home/salihi/.julia/packages/Stipple/PPPFX/src/Stipple.jl:538
+┌ Info: 2025-12-31 21:13:44 Calling finalizers
+└ @ Stipple /home/salihi/.julia/packages/Stipple/PPPFX/src/Stipple.jl:538
+┌ Info: 2025-12-31 21:13:47 Calling finalizers
+└ @ Stipple /home/salihi/.julia/packages/Stipple/PPPFX/src/Stipple.jl:538
+┌ Info: 2025-12-31 21:14:03 Calling finalizers
+└ @ Stipple /home/salihi/.julia/packages/Stipple/PPPFX/src/Stipple.jl:538
