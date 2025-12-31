@@ -41,7 +41,7 @@ Where:
 
 1.  Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/YassineSalihi/SIMPLEX.git
     cd GUI_SIMPLEXE
     ```
 2.  Instantiate the project dependencies:
