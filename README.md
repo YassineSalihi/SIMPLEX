@@ -1,50 +1,78 @@
-# SIMPLEX
+# Simplex Method Solver
 
-very simple starting point.
+A robust implementation of the Simplex Algorithm in Julia, featuring both a command-line interface and a modern web-based graphical user interface (GUI) built with functionalities from the Genie Framework.
 
-I am using the image below from my teacher course :
-![image](https://github.com/user-attachments/assets/09e0578d-8614-43fe-8660-872b46c2c238)
+![Simplex Web Interface](images/simplex_web.png)
 
-Also I am checking <https://medium.com/@muditbits/simplex-method-for-linear-programming-1f88fc981f50>  
-the "Simplex Algorithm"
+## Overview
 
-# Implementation : would be tested in different methods
+This project implements the Simplex algorithm for solving Linear Programming (LP) problems. It provides a step-by-step table visualization of the pivoting process, making it an excellent educational tool for understanding optimization.
 
-- Julia.
-- passing to web interfaces.
-- ...
+## Features
 
-To optimize : \
-\$(c_1x_1 + c_2x_2 + c_3x_3 + ... + c_nx_n)\$
+-   **Core Algorithm**: Efficient Julia implementation of the Simplex Method.
+-   **Web Interface**: Interactive GUI to input variables and view results dynamically.
+-   **Step-by-Step Visualization**: Displays initial and intermediate Simplex tableaus.
+-   **Dual Modes**: Run as a CLI script or a Web Application.
 
-Subjects to constraints : \
-\$a_{11}x_1 + a_{12}x_2 + a_{13}x_3 + ... + a_{1n}x_n <= b_1\$  \
-\$a_{21}x_1 + a_{22}x_2 + a_{23}x_3 + ... + a_{2n}x_n <= b_1\$  \
-                      .           \
-       .           \
-       .           \
-\$a_{m1}x_1 + a_{m2}x_2 + a_{m3}x_3 + ... + a_{mn}x_n <= b_1\$  
+## Mathematical Formulation
 
-# A Brief Description of the Simplex Method
+The solver addresses Linear Programming problems in the standard form:
 
-We will use the notation of Bazaraa et al. (2011)1 with slight changes, of which this section provides a summary. We consider an LP problem of the following form:
+**Minimize:**
+$$ Z = c^T x $$
 
-min        \$cx\$ \
-s.t.       \$Ax = b\$
-           \$x >= 0\$
+**Subject to:**
+$$ Ax = b $$
+$$ x \ge 0 $$
 
-where \$A\$ is an \$m * n\$ matrix with rank and all other vectors have appropriate dimensions.
+Where:
+-   $x$ is the vector of variables (to be determined).
+-   $c$ and $b$ are vectors of known coefficients.
+-   $A$ is a known matrix of coefficients.
 
-# To Run
+## Getting Started
 
-```console
-julia run_simlex.jl 
+### Prerequisites
+
+-   [Julia](https://julialang.org/downloads/) (v1.6 or later recommended)
+
+### Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone <repository-url>
+    cd GUI_SIMPLEXE
+    ```
+2.  Instantiate the project dependencies:
+    ```bash
+    julia --project -e 'using Pkg; Pkg.instantiate()'
+    ```
+
+### Usage
+
+#### 1. Web Application (Recommended)
+Launch the interactive web interface:
+
+```bash
+julia run_app.jl
 ```
 
-> :memo: **Note:** To change value, check the run_simlex.jl file.
+Open your browser and navigate to: `http://127.0.0.1:8000`
+
+#### 2. Command Line Interface
+Run the solver on a predefined set of data:
+
+```bash
+julia run_simlex.jl
+```
+
+You can modify the input vectors directly in `run_simlex.jl`.
+
+## References
+
+-   **Base Implementation**: Inspired by coursework and standard Simplex algorithm definitions.
+-   **Further Reading**: [Simplex Method for Linear Programming](https://medium.com/@muditbits/simplex-method-for-linear-programming-1f88fc981f50)
 
 ---
-
-## Note : result of the graphical method
-
-![image](https://github.com/user-attachments/assets/fb576031-6733-470e-8f4d-8855ac28a2c9)
+*Developed for educational purposes.*

@@ -138,3 +138,9 @@
 └ @ Stipple /home/salihi/.julia/packages/Stipple/PPPFX/src/Stipple.jl:668
 ┌ Info: 2025-12-31 21:30:06 Server on 127.0.0.1:8000 closing
 └ @ HTTP.Servers /home/salihi/.julia/packages/HTTP/ShTJs/src/Servers.jl:409
+┌ Info: 2025-12-31 21:37:13 Autoreloading
+└ @ GenieAutoReload /home/salihi/.julia/packages/GenieAutoReload/qpImd/src/GenieAutoReload.jl:22
+┌ Info: 2025-12-31 21:37:13 Autoreloading
+└ @ GenieAutoReload /home/salihi/.julia/packages/GenieAutoReload/qpImd/src/GenieAutoReload.jl:22
+┌ Info: 2025-12-31 21:37:13 Calling finalizers
+└ @ Stipple /home/salihi/.julia/packages/Stipple/PPPFX/src/Stipple.jl:538
