@@ -72,7 +72,7 @@ You can modify the input vectors directly in `run_simlex.jl`.
 ## References
 
 -   **Base Implementation**: Inspired by coursework and standard Simplex algorithm definitions.
--   **Further Reading**: [Simplex Method for Linear Programming](https://medium.com/@muditbits/simplex-method-for-linear-programming-1f88fc981f50)
+-   **Further Reading**: [Simplex Method for Linear Programming](https://www.chkwon.net/julia/juliabook/juliabook2.html#chap-simplex)
 
 ---
 *Developed for educational purposes.*
